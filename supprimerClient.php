@@ -11,7 +11,7 @@ if(isset($_GET["id"])) {
     header("Location: manage_clients.php");
     exit();
 } else {
-    // Si l'ID du client n'est pas défini -> rediriger vers la page gestion comptes
+    // Si l'ID client n'est pas défini -> la page gestion comptes
     header("Location: manage_clients.php");
     exit();
 }
